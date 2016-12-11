@@ -1,0 +1,230 @@
+html, body {
+	font-size: 2vw;
+	height: 96vw;
+	width:100vw;
+	overflow-x:hidden;
+	background-color: #FFFFFF;
+	border-color:#66667A;
+	color: #66667A;
+}
+
+
+div.maindiv {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div.timetable {
+	width: 100vw;
+	
+
+}
+div.weekchose {
+	width: 100vw;
+	height: 6vw;
+	overflow:hidden;
+}
+div.headrow {
+	width:99.9vw;
+	height: 6vw;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	margin-bottom: 1vw;
+
+}
+div.headrowobject {
+	padding-top: 0.1vw; 
+	padding-bottom: 0.1vw;
+	padding-left: 0.1vw;
+	padding-right: 0.1vw;
+	float: left;
+	width: 13.7vw;
+	height:6vw;
+	text-align: center;
+	
+
+}
+div.headrowobjecttime {
+	padding-top: 0.1vw; 
+	padding-bottom: 0.1vw;
+	padding-left: 0.1vw;
+	padding-right: 0.1vw;
+	float: left;
+	width: 13.7vw;
+	height:6vw;
+
+
+}
+div.contentclolumn{
+	padding-top: 0.1vw; 
+	padding-bottom: 0.1vw;
+	padding-left: 0.1vw;
+	padding-right: 0.1vw; 
+	margin: 0.1vw;
+	float: left;
+	width: 13.7vw;
+	border-color:black;
+	
+
+
+}
+div.timeobject{
+	height: 10vw;
+}
+div.timelinedash{
+	width:100vw;
+    border-bottom-style: dashed;
+    border-width: 1px;
+}
+div.timeline{
+	width:100vw;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+
+
+
+
+div.courseobjectblock {
+	width:13.7vw;
+	min-width: 13.7vw;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	
+	font-size: 1vw;
+	height: 15vw;
+	background-color: #04A5F0;
+	overflow:hidden;
+
+
+}
+div.courseobjecthour {
+	width:13.7vw;
+	min-width: 13.7vw;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+
+    border-width: 0.1vw;
+	font-size: 1vw;
+	height: 10vw;
+	background-color: #04A5F0;
+	overflow-y:scroll;
+}
+div.courseobjecthalfhour {
+	width:13.7vw;
+	min-width: 13.7vw;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	
+	font-size: 1vw;
+	height: 5vw;
+	background-color: #04A5F0;
+	overflow-y:scroll;
+}
+div.courseobjectquaterhour {
+	width:13.7vw;
+	min-width: 13.7vw;
+
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;	
+	
+	font-size: 1vw;
+	height: 2.5vw;
+	background-color: #04A5F0;
+	overflow-y:scroll;
+}
+
+div.courseobjectbreak {
+	width:13.7vw;
+	min-width: 13.7vw;
+	
+	border-style: hidden;
+	border-width: 1px;
+	border-radius: 4px;
+
+	font-size: 1vw;
+	height: 2.5vw;
+
+	overflow-y:hidden;
+}
+
+
+
+form{
+	width:100vw;
+	height:98vw;
+}
+form.button{
+color: #FFFFFF;
+background-color: #A1B9C5;
+width: 100vw;
+padding: 1px;
+line-height: 130vw
+
+}
+
+label {
+color:#FFFFFF;
+
+}
+
+label.course{
+font-weight: bold;
+	padding-left: 0.5vw;
+
+}
+label.room{
+text-decoration:underline;
+	padding-left: 0.5vw;
+
+}
+label.teacher{
+	padding-left: 0.5vw;
+
+}
+div.button{
+	float:left;
+	width: 3vw;
+	height:100vw;
+	font-size: 1vw;
+}
+input{
+		height:100vw;
+		width:100vw;
+}
+div.choose{
+	float:left;
+	width:94vw;
+	height:100vw;
+}
+
+
+div.weekchoseselect {
+	width: 100vw;
+	height: 100vw;
+}
+select.form-control {
+width: 100vw;
+height: 100vw;
+font-size: 1vw;
+
+color: #555555;
+vertical-align: middle;
+background-color: #ffffff;
+
+}
+div.foot{
+width:100vw;
+
+	float:left;
+font-size:0.8vw;
+text-align:center;
+}
